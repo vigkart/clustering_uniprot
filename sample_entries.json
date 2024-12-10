@@ -1,0 +1,1054 @@
+[
+  {
+    "id": "NHAX_BACSU",
+    "accessions": [
+      "O07552"
+    ],
+    "description": "RecName: Full=Stress response protein NhaX;",
+    "gene_names": [
+      "nhaX"
+    ],
+    "organism": "Bacillus subtilis (strain 168)",
+    "taxonomy": [
+      "224308"
+    ],
+    "references": [],
+    "comments": [
+      "-!- INDUCTION: By phosphate starvation, via the alternative sigma factor",
+      "    sigma-B. {ECO:0000269|PubMed:11988534}.",
+      "-!- SIMILARITY: Belongs to the universal stress protein A family.",
+      "    {ECO:0000305}.",
+      "-!- SEQUENCE CAUTION:",
+      "    Sequence=CAA74460.1; Type=Erroneous initiation; Evidence={ECO:0000305};",
+      "---------------------------------------------------------------------------",
+      "Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms",
+      "Distributed under the Creative Commons Attribution (CC BY 4.0) License",
+      "---------------------------------------------------------------------------"
+    ],
+    "features": [],
+    "keywords": [],
+    "sequence": "MFHADRIIVAFDGSENSKKALLTAIDLAKTVNAAITVAHSHDMKDNQTVIDPPRPAAEASYISGGMTSVPDPLISDVTSPEPMIYEDRTEEVIAEARMMLNEQQADGDIDILEGDPAESIIEHANRISADMIVTGSRDQNRLKKLIFGSVSEKLSAKSDIPVLIVK",
+    "sequence_length": 166,
+    "sequence_mass": 18014,
+    "ec_numbers": [],
+    "go_terms": [],
+    "database_refs": {
+      "EMBL": [
+        "Y14080",
+        "CAA74460.1",
+        "ALT_INIT",
+        "Genomic_DNA",
+        "AL009126",
+        "CAB12808.2",
+        "-",
+        "Genomic_DNA"
+      ],
+      "PIR": [
+        "C69829",
+        "C69829"
+      ],
+      "RefSeq": [
+        "NP_388850.2",
+        "NC_000964.3",
+        "WP_003233299.1",
+        "NZ_JNCM01000035.1"
+      ],
+      "AlphaFoldDB": [
+        "O07552",
+        "-"
+      ],
+      "SMR": [
+        "O07552",
+        "-"
+      ],
+      "STRING": [
+        "224308.BSU09690",
+        "-"
+      ],
+      "PaxDb": [
+        "224308-BSU09690",
+        "-"
+      ],
+      "EnsemblBacteria": [
+        "CAB12808",
+        "CAB12808",
+        "BSU_09690"
+      ],
+      "GeneID": [
+        "939286",
+        "-"
+      ],
+      "KEGG": [
+        "bsu:BSU09690",
+        "-"
+      ],
+      "PATRIC": [
+        "fig|224308.179.peg.1042",
+        "-"
+      ],
+      "eggNOG": [
+        "COG0589",
+        "Bacteria"
+      ],
+      "InParanoid": [
+        "O07552",
+        "-"
+      ],
+      "OrthoDB": [
+        "2426295at2",
+        "-"
+      ],
+      "PhylomeDB": [
+        "O07552",
+        "-"
+      ],
+      "BioCyc": [
+        "BSUB:BSU09690-MONOMER",
+        "-"
+      ],
+      "Proteomes": [
+        "UP000001570",
+        "Chromosome"
+      ],
+      "CDD": [
+        "cd00293",
+        "USP_Like",
+        "1"
+      ],
+      "Gene3D": [
+        "3.40.50.620",
+        "HUPs",
+        "1"
+      ],
+      "InterPro": [
+        "IPR014729",
+        "Rossmann-like_a/b/a_fold",
+        "IPR006015",
+        "Universal_stress_UspA",
+        "IPR006016",
+        "UspA"
+      ],
+      "PANTHER": [
+        "PTHR46268",
+        "STRESS RESPONSE PROTEIN NHAX",
+        "1",
+        "PTHR46268:SF21",
+        "UNIVERSAL STRESS PROTEIN UP12",
+        "1"
+      ],
+      "Pfam": [
+        "PF00582",
+        "Usp",
+        "1"
+      ],
+      "PRINTS": [
+        "PR01438",
+        "UNVRSLSTRESS"
+      ],
+      "SUPFAM": [
+        "SSF52402",
+        "Adenine nucleotide alpha hydrolases-like",
+        "1"
+      ]
+    },
+    "catalytic_activity": [],
+    "pathway": [],
+    "active_sites": [],
+    "binding_sites": [],
+    "interactions": [],
+    "cofactors": [],
+    "subunit_structure": ""
+  },
+  {
+    "id": "MMDD_PROMO",
+    "accessions": [
+      "O54029"
+    ],
+    "description": "RecName: Full=Methylmalonyl-CoA decarboxylase subunit delta {ECO:0000305};",
+    "gene_names": [
+      "mmdD {ECO:0000303|PubMed:9428714}"
+    ],
+    "organism": "Propionigenium modestum",
+    "taxonomy": [
+      "2333"
+    ],
+    "references": [],
+    "comments": [
+      "-!- FUNCTION: Subunit of the sodium ion pump methylmalonyl-CoA",
+      "    decarboxylase, which converts the chemical energy of a decarboxylation",
+      "    reaction into an electrochemical gradient of Na(+) ions across the",
+      "    cytoplasmic membrane, thereby creating a sodium ion motive force that",
+      "    is used for ATP synthesis (PubMed:9428714). The delta subunit is",
+      "    required for catalytic activity as well as for the proper assembly of",
+      "    the individual subunits to an enzyme complex (By similarity).",
+      "    {ECO:0000250|UniProtKB:Q56724, ECO:0000269|PubMed:9428714}.",
+      "    Reaction=(S)-methylmalonyl-CoA + H(+)(out) + Na(+)(in) = CO2 +",
+      "      Na(+)(out) + propanoyl-CoA; Xref=Rhea:RHEA:21396, ChEBI:CHEBI:15378,",
+      "      ChEBI:CHEBI:16526, ChEBI:CHEBI:29101, ChEBI:CHEBI:57327,",
+      "      ChEBI:CHEBI:57392; EC=7.2.4.3; Evidence={ECO:0000269|PubMed:9428714};",
+      "    subunits: the carboxyltransferase alpha subunit (MmdA), the tunnel beta",
+      "    subunit (MmdB), the biotin-containing gamma subunit (MmdC) and the",
+      "    delta subunit (MmdD). {ECO:0000269|PubMed:9428714}.",
+      "-!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:9428714};",
+      "    Single-pass membrane protein {ECO:0000255}.",
+      "-!- SIMILARITY: Belongs to the OadG family. {ECO:0000305}.",
+      "---------------------------------------------------------------------------",
+      "Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms",
+      "Distributed under the Creative Commons Attribution (CC BY 4.0) License",
+      "---------------------------------------------------------------------------"
+    ],
+    "features": [],
+    "keywords": [],
+    "sequence": "MNITELMELFSNPETIKTLETGDLMTGIGVTVVLGMGITVVALIFLMYIIGGMAAIMAEKPKEVKETAAAAPKPEAAAAPAPAANNDEELVAVIAAAVAAQLGTSASNLIIRNVTRSLDTTPAWGRAGIVDQMATRL",
+    "sequence_length": 137,
+    "sequence_mass": 14166,
+    "ec_numbers": [
+      "7.2.4.3",
+      "{ECO:0000269|PubMed:9428714}"
+    ],
+    "go_terms": [
+      {
+        "id": "GO:0005886",
+        "term": "C:plasma membrane",
+        "evidence": "IEA:UniProtKB-SubCell"
+      },
+      {
+        "id": "GO:0015451",
+        "term": "F:decarboxylation-driven active transmembrane transporter activity",
+        "evidence": "IEA:UniProtKB-EC"
+      },
+      {
+        "id": "GO:0015081",
+        "term": "F:sodium ion transmembrane transporter activity",
+        "evidence": "IEA:InterPro"
+      },
+      {
+        "id": "GO:0036376",
+        "term": "P:sodium ion export across plasma membrane",
+        "evidence": "IEA:InterPro"
+      }
+    ],
+    "database_refs": {
+      "EMBL": [
+        "AJ002015",
+        "CAA05138.1",
+        "-",
+        "Genomic_DNA"
+      ],
+      "PIR": [
+        "T44983",
+        "T44983"
+      ],
+      "AlphaFoldDB": [
+        "O54029",
+        "-"
+      ],
+      "SMR": [
+        "O54029",
+        "-"
+      ],
+      "KEGG": [
+        "ag:CAA05138",
+        "-"
+      ],
+      "InterPro": [
+        "IPR005899",
+        "Na_pump_deCOase"
+      ],
+      "NCBIfam": [
+        "TIGR01195",
+        "oadG_fam",
+        "1"
+      ],
+      "Pfam": [
+        "PF04277",
+        "OAD_gamma",
+        "1"
+      ]
+    },
+    "catalytic_activity": [
+      ""
+    ],
+    "pathway": [],
+    "active_sites": [],
+    "binding_sites": [],
+    "interactions": [],
+    "cofactors": [],
+    "subunit_structure": "The methylmalonyl-CoA decarboxylase is composed of four"
+  },
+  {
+    "id": "GREA_ALKOO",
+    "accessions": [
+      "A8MLU4"
+    ],
+    "description": "RecName: Full=Transcription elongation factor GreA {ECO:0000255|HAMAP-Rule:MF_00105}; AltName: Full=Transcript cleavage factor GreA {ECO:0000255|HAMAP-Rule:MF_00105};",
+    "gene_names": [
+      "greA {ECO:0000255|HAMAP-Rule:MF_00105}"
+    ],
+    "organism": "Alkaliphilus oremlandii (strain OhILAs) (Clostridium oremlandii (strain OhILAs))",
+    "taxonomy": [
+      "350688"
+    ],
+    "references": [],
+    "comments": [
+      "-!- FUNCTION: Necessary for efficient RNA polymerase transcription",
+      "    elongation past template-encoded arresting sites. The arresting sites",
+      "    in DNA have the property of trapping a certain fraction of elongating",
+      "    RNA polymerases that pass through, resulting in locked ternary",
+      "    complexes. Cleavage of the nascent transcript by cleavage factors such",
+      "    as GreA or GreB allows the resumption of elongation from the new",
+      "    3'terminus. GreA releases sequences of 2 to 3 nucleotides.",
+      "    {ECO:0000255|HAMAP-Rule:MF_00105}.",
+      "-!- SIMILARITY: Belongs to the GreA/GreB family. {ECO:0000255|HAMAP-",
+      "    Rule:MF_00105}.",
+      "---------------------------------------------------------------------------",
+      "Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms",
+      "Distributed under the Creative Commons Attribution (CC BY 4.0) License",
+      "---------------------------------------------------------------------------"
+    ],
+    "features": [],
+    "keywords": [],
+    "sequence": "MMADREVVLTAQGLKKLEDELELLKTVRRKEIAERIKQAIAFGDISENSEYDEAKNEQAQVEDRINKLETMLRKAVIIDEEDINTDIVSIGSIVQVNDLEFDEIVEYTIVGSTEADPYELKISNESPVGRALLGTKVGDVVEVQIPDGVTKYEILKITR",
+    "sequence_length": 159,
+    "sequence_mass": 17895,
+    "ec_numbers": [],
+    "go_terms": [
+      {
+        "id": "GO:0003677",
+        "term": "F:DNA binding",
+        "evidence": "IEA:UniProtKB-UniRule"
+      },
+      {
+        "id": "GO:0070063",
+        "term": "F:RNA polymerase binding",
+        "evidence": "IEA:InterPro"
+      },
+      {
+        "id": "GO:0006354",
+        "term": "P:DNA-templated transcription elongation",
+        "evidence": "IEA:TreeGrafter"
+      },
+      {
+        "id": "GO:0032784",
+        "term": "P:regulation of DNA-templated transcription elongation",
+        "evidence": "IEA:UniProtKB-UniRule"
+      }
+    ],
+    "database_refs": {
+      "EMBL": [
+        "CP000853",
+        "ABW18011.1",
+        "-",
+        "Genomic_DNA"
+      ],
+      "AlphaFoldDB": [
+        "A8MLU4",
+        "-"
+      ],
+      "SMR": [
+        "A8MLU4",
+        "-"
+      ],
+      "STRING": [
+        "350688.Clos_0449",
+        "-"
+      ],
+      "KEGG": [
+        "aoe:Clos_0449",
+        "-"
+      ],
+      "eggNOG": [
+        "COG0782",
+        "Bacteria"
+      ],
+      "HOGENOM": [
+        "CLU_101379_2_1_9",
+        "-"
+      ],
+      "OrthoDB": [
+        "9808774at2",
+        "-"
+      ],
+      "Proteomes": [
+        "UP000000269",
+        "Chromosome"
+      ],
+      "Gene3D": [
+        "3.10.50.30",
+        "Transcription elongation factor, GreA/GreB, C-terminal domain",
+        "1",
+        "1.10.287.180",
+        "Transcription elongation factor, GreA/GreB, N-terminal domain",
+        "1"
+      ],
+      "HAMAP": [
+        "MF_00105",
+        "GreA_GreB",
+        "1"
+      ],
+      "InterPro": [
+        "IPR036953",
+        "GreA/GreB_C_sf",
+        "IPR018151",
+        "TF_GreA/GreB_CS",
+        "IPR006359",
+        "Tscrpt_elong_fac_GreA",
+        "IPR028624",
+        "Tscrpt_elong_fac_GreA/B",
+        "IPR001437",
+        "Tscrpt_elong_fac_GreA/B_C",
+        "IPR023459",
+        "Tscrpt_elong_fac_GreA/B_fam",
+        "IPR022691",
+        "Tscrpt_elong_fac_GreA/B_N",
+        "IPR036805",
+        "Tscrpt_elong_fac_GreA/B_N_sf"
+      ],
+      "NCBIfam": [
+        "TIGR01462",
+        "greA",
+        "1"
+      ],
+      "PANTHER": [
+        "PTHR30437",
+        "TRANSCRIPTION ELONGATION FACTOR GREA",
+        "1",
+        "PTHR30437:SF4",
+        "TRANSCRIPTION ELONGATION FACTOR GREA",
+        "1"
+      ],
+      "Pfam": [
+        "PF01272",
+        "GreA_GreB",
+        "1",
+        "PF03449",
+        "GreA_GreB_N",
+        "1"
+      ],
+      "PIRSF": [
+        "PIRSF006092",
+        "GreA_GreB",
+        "1"
+      ],
+      "SUPFAM": [
+        "SSF54534",
+        "FKBP-like",
+        "1",
+        "SSF46557",
+        "GreA transcript cleavage protein, N-terminal domain",
+        "1"
+      ],
+      "PROSITE": [
+        "PS00829",
+        "GREAB_1",
+        "1",
+        "PS00830",
+        "GREAB_2",
+        "1"
+      ]
+    },
+    "catalytic_activity": [],
+    "pathway": [],
+    "active_sites": [],
+    "binding_sites": [],
+    "interactions": [],
+    "cofactors": [],
+    "subunit_structure": ""
+  },
+  {
+    "id": "AHSP_HUMAN",
+    "accessions": [
+      "Q9NZD4",
+      "Q8TD01"
+    ],
+    "description": "RecName: Full=Alpha-hemoglobin-stabilizing protein; AltName: Full=Erythroid differentiation-related factor; AltName: Full=Erythroid-associated factor;",
+    "gene_names": [
+      "AHSP"
+    ],
+    "organism": "Homo sapiens (Human)",
+    "taxonomy": [
+      "9606"
+    ],
+    "references": [],
+    "comments": [
+      "-!- FUNCTION: Acts as a chaperone to prevent the harmful aggregation of",
+      "    alpha-hemoglobin during normal erythroid cell development. Specifically",
+      "    protects free alpha-hemoglobin from precipitation. It is predicted to",
+      "    modulate pathological states of alpha-hemoglobin excess such as beta-",
+      "    thalassemia. {ECO:0000269|PubMed:12066189}.",
+      "    not bind beta-hemoglobin nor alpha(2)beta(2) hemoglobin A.",
+      "    {ECO:0000269|PubMed:15550245, ECO:0000269|PubMed:15931225}.",
+      "    Q9NZD4; Q8IUQ0: CLVS1; NbExp=3; IntAct=EBI-720250, EBI-9657824;",
+      "    Q9NZD4; P62942: FKBP1A; NbExp=3; IntAct=EBI-720250, EBI-1027571;",
+      "    Q9NZD4; P69905: HBA2; NbExp=2; IntAct=EBI-720250, EBI-714680;",
+      "    Q9NZD4; P20618: PSMB1; NbExp=3; IntAct=EBI-720250, EBI-372273;",
+      "    Q9NZD4; Q05086-2: UBE3A; NbExp=3; IntAct=EBI-720250, EBI-10175863;",
+      "    Q9NZD4; Q9Y2B5: VPS9D1; NbExp=3; IntAct=EBI-720250, EBI-9031083;",
+      "    Q9NZD4; Q5D1E8: ZC3H12A; NbExp=4; IntAct=EBI-720250, EBI-747793;",
+      "    Q9NZD4; P17024: ZNF20; NbExp=3; IntAct=EBI-720250, EBI-717634;",
+      "-!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000269|PubMed:12066189}.",
+      "-!- TISSUE SPECIFICITY: Expressed in blood and bone marrow.",
+      "    {ECO:0000269|PubMed:11231637, ECO:0000269|PubMed:12066189}.",
+      "-!- INDUCTION: By GATA1 during erythroid maturation.",
+      "-!- SIMILARITY: Belongs to the AHSP family. {ECO:0000305}.",
+      "---------------------------------------------------------------------------",
+      "Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms",
+      "Distributed under the Creative Commons Attribution (CC BY 4.0) License",
+      "---------------------------------------------------------------------------"
+    ],
+    "features": [],
+    "keywords": [],
+    "sequence": "MALLKANKDLISAGLKEFSVLLNQQVFNDPLVSEEDMVTVVEDWMNFYINYYRQQVTGEPQERDKALQELRQELNTLANPFLAKYRDFLKSHELPSHPPPSS",
+    "sequence_length": 102,
+    "sequence_mass": 11840,
+    "ec_numbers": [],
+    "go_terms": [
+      {
+        "id": "GO:0005737",
+        "term": "C:cytoplasm",
+        "evidence": "IBA:GO_Central"
+      },
+      {
+        "id": "GO:0005833",
+        "term": "C:hemoglobin complex",
+        "evidence": "NAS:UniProtKB"
+      },
+      {
+        "id": "GO:0030492",
+        "term": "F:hemoglobin binding",
+        "evidence": "NAS:UniProtKB"
+      },
+      {
+        "id": "GO:0051082",
+        "term": "F:unfolded protein binding",
+        "evidence": "NAS:UniProtKB"
+      },
+      {
+        "id": "GO:0030218",
+        "term": "P:erythrocyte differentiation",
+        "evidence": "IBA:GO_Central"
+      },
+      {
+        "id": "GO:0020027",
+        "term": "P:hemoglobin metabolic process",
+        "evidence": "NAS:UniProtKB"
+      },
+      {
+        "id": "GO:0030097",
+        "term": "P:hemopoiesis",
+        "evidence": "NAS:UniProtKB"
+      },
+      {
+        "id": "GO:0006457",
+        "term": "P:protein folding",
+        "evidence": "IBA:GO_Central"
+      },
+      {
+        "id": "GO:0050821",
+        "term": "P:protein stabilization",
+        "evidence": "IBA:GO_Central"
+      }
+    ],
+    "database_refs": {
+      "EMBL": [
+        "AF364517",
+        "AAK50856.1",
+        "-",
+        "mRNA",
+        "AF208865",
+        "AAF64279.1",
+        "-",
+        "mRNA",
+        "AY072612",
+        "AAL82894.1",
+        "-",
+        "Genomic_DNA",
+        "AF485325",
+        "AAO49381.1",
+        "-",
+        "Genomic_DNA",
+        "BC035842",
+        "AAH35842.1",
+        "-",
+        "mRNA"
+      ],
+      "CCDS": [
+        "CCDS10716.1",
+        "-"
+      ],
+      "RefSeq": [
+        "NP_001305150.1",
+        "NM_001318221.1",
+        "NP_001305151.1",
+        "NM_001318222.1",
+        "NP_057717.1",
+        "NM_016633.3"
+      ],
+      "PDB": [
+        "1W09",
+        "NMR",
+        "-",
+        "A=3-94",
+        "1W0A",
+        "NMR",
+        "-",
+        "A=3-94",
+        "1W0B",
+        "NMR",
+        "-",
+        "A=2-102",
+        "1XZY",
+        "NMR",
+        "-",
+        "A=1-90",
+        "1Y01",
+        "X-ray",
+        "2.80 A",
+        "A=1-102",
+        "1Z8U",
+        "X-ray",
+        "2.40 A",
+        "A/C=1-102",
+        "3IA3",
+        "X-ray",
+        "3.20 A",
+        "A/C=1-91",
+        "3OVU",
+        "X-ray",
+        "2.83 A",
+        "A=2-102"
+      ],
+      "PDBsum": [
+        "1W09",
+        "-",
+        "1W0A",
+        "-",
+        "1W0B",
+        "-",
+        "1XZY",
+        "-",
+        "1Y01",
+        "-",
+        "1Z8U",
+        "-",
+        "3IA3",
+        "-",
+        "3OVU",
+        "-"
+      ],
+      "AlphaFoldDB": [
+        "Q9NZD4",
+        "-"
+      ],
+      "BMRB": [
+        "Q9NZD4",
+        "-"
+      ],
+      "SMR": [
+        "Q9NZD4",
+        "-"
+      ],
+      "BioGRID": [
+        "119476",
+        "16"
+      ],
+      "DIP": [
+        "DIP-35198N",
+        "-"
+      ],
+      "IntAct": [
+        "Q9NZD4",
+        "14"
+      ],
+      "STRING": [
+        "9606.ENSP00000307199",
+        "-"
+      ],
+      "DrugBank": [
+        "DB14490",
+        "Ferrous ascorbate",
+        "DB14491",
+        "Ferrous fumarate",
+        "DB14488",
+        "Ferrous gluconate",
+        "DB14501",
+        "Ferrous glycine sulfate",
+        "DB14489",
+        "Ferrous succinate",
+        "DB01592",
+        "Iron"
+      ],
+      "BioMuta": [
+        "AHSP",
+        "-"
+      ],
+      "DMDM": [
+        "23813669",
+        "-"
+      ],
+      "MassIVE": [
+        "Q9NZD4",
+        "-"
+      ],
+      "PaxDb": [
+        "9606-ENSP00000307199",
+        "-"
+      ],
+      "PeptideAtlas": [
+        "Q9NZD4",
+        "-"
+      ],
+      "ProteomicsDB": [
+        "83376",
+        "-"
+      ],
+      "Pumba": [
+        "Q9NZD4",
+        "-"
+      ],
+      "TopDownProteomics": [
+        "Q9NZD4",
+        "-"
+      ],
+      "Antibodypedia": [
+        "27920",
+        "197 antibodies from 23 providers"
+      ],
+      "DNASU": [
+        "51327",
+        "-"
+      ],
+      "Ensembl": [
+        "ENST00000302312.9",
+        "ENSP00000307199.4",
+        "ENSG00000169877.10"
+      ],
+      "GeneID": [
+        "51327",
+        "-"
+      ],
+      "KEGG": [
+        "hsa:51327",
+        "-"
+      ],
+      "MANE-Select": [
+        "ENST00000302312.9",
+        "ENSP00000307199.4",
+        "NM_016633.4",
+        "NP_057717.1"
+      ],
+      "UCSC": [
+        "uc002ecj.4",
+        "human"
+      ],
+      "AGR": [
+        "HGNC:18075",
+        "-"
+      ],
+      "CTD": [
+        "51327",
+        "-"
+      ],
+      "DisGeNET": [
+        "51327",
+        "-"
+      ],
+      "GeneCards": [
+        "AHSP",
+        "-"
+      ],
+      "HGNC": [
+        "HGNC:18075",
+        "AHSP"
+      ],
+      "HPA": [
+        "ENSG00000169877",
+        "Tissue enriched (bone)"
+      ],
+      "MIM": [
+        "605821",
+        "gene"
+      ],
+      "neXtProt": [
+        "NX_Q9NZD4",
+        "-"
+      ],
+      "OpenTargets": [
+        "ENSG00000169877",
+        "-"
+      ],
+      "PharmGKB": [
+        "PA27842",
+        "-"
+      ],
+      "VEuPathDB": [
+        "HostDB:ENSG00000169877",
+        "-"
+      ],
+      "eggNOG": [
+        "ENOG502SXDF",
+        "Eukaryota"
+      ],
+      "GeneTree": [
+        "ENSGT00390000003648",
+        "-"
+      ],
+      "HOGENOM": [
+        "CLU_188032_0_0_1",
+        "-"
+      ],
+      "InParanoid": [
+        "Q9NZD4",
+        "-"
+      ],
+      "OMA": [
+        "DWIKFYL",
+        "-"
+      ],
+      "OrthoDB": [
+        "5256560at2759",
+        "-"
+      ],
+      "PhylomeDB": [
+        "Q9NZD4",
+        "-"
+      ],
+      "TreeFam": [
+        "TF337056",
+        "-"
+      ],
+      "PathwayCommons": [
+        "Q9NZD4",
+        "-"
+      ],
+      "SignaLink": [
+        "Q9NZD4",
+        "-"
+      ],
+      "SIGNOR": [
+        "Q9NZD4",
+        "-"
+      ],
+      "BioGRID-ORCS": [
+        "51327",
+        "10 hits in 1157 CRISPR screens"
+      ],
+      "ChiTaRS": [
+        "AHSP",
+        "human"
+      ],
+      "EvolutionaryTrace": [
+        "Q9NZD4",
+        "-"
+      ],
+      "GeneWiki": [
+        "ERAF",
+        "-"
+      ],
+      "GenomeRNAi": [
+        "51327",
+        "-"
+      ],
+      "Pharos": [
+        "Q9NZD4",
+        "Tbio"
+      ],
+      "PRO": [
+        "PR:Q9NZD4",
+        "-"
+      ],
+      "Proteomes": [
+        "UP000005640",
+        "Chromosome 16"
+      ],
+      "RNAct": [
+        "Q9NZD4",
+        "protein"
+      ],
+      "Bgee": [
+        "ENSG00000169877",
+        "Expressed in trabecular bone tissue and 115 other cell types or tissues"
+      ],
+      "ExpressionAtlas": [
+        "Q9NZD4",
+        "baseline and differential"
+      ],
+      "Gene3D": [
+        "1.20.58.420",
+        "AHSP",
+        "1"
+      ],
+      "InterPro": [
+        "IPR015317",
+        "A_Hb_stabilising_prot",
+        "IPR036468",
+        "AHSP_sf"
+      ],
+      "PANTHER": [
+        "PTHR15914",
+        "ALPHA-HEMOGLOBIN-STABILIZING PROTEIN",
+        "1",
+        "PTHR15914:SF0",
+        "ALPHA-HEMOGLOBIN-STABILIZING PROTEIN",
+        "1"
+      ],
+      "Pfam": [
+        "PF09236",
+        "AHSP",
+        "1"
+      ],
+      "SUPFAM": [
+        "SSF109751",
+        "Alpha-hemoglobin stabilizing protein AHSP",
+        "1"
+      ]
+    },
+    "catalytic_activity": [],
+    "pathway": [],
+    "active_sites": [],
+    "binding_sites": [],
+    "interactions": [],
+    "cofactors": [],
+    "subunit_structure": "Monomer. Forms a heterodimer with free alpha-hemoglobin. Does"
+  },
+  {
+    "id": "Y811_PYRIL",
+    "accessions": [
+      "A1RSQ5"
+    ],
+    "description": "RecName: Full=UPF0219 protein Pisl_0811 {ECO:0000255|HAMAP-Rule:MF_01409};",
+    "gene_names": [],
+    "organism": "Pyrobaculum islandicum (strain DSM 4184 / JCM 9189 / GEO3)",
+    "taxonomy": [
+      "384616"
+    ],
+    "references": [],
+    "comments": [
+      "-!- SIMILARITY: Belongs to the thiolase-like superfamily. UPF0219 family.",
+      "    {ECO:0000255|HAMAP-Rule:MF_01409}.",
+      "---------------------------------------------------------------------------",
+      "Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms",
+      "Distributed under the Creative Commons Attribution (CC BY 4.0) License",
+      "---------------------------------------------------------------------------"
+    ],
+    "features": [],
+    "keywords": [],
+    "sequence": "MSRVGIVSWGAYIPKYRIRTEEVAKIWGDDPLRIVDLYLVDEKSVEGIDEDAVTIAVEAAKRALKRARIDPKRIGAIYVGTESKPYAVKPISSILVDALGLSNNVFAVDMEFACKAGSEGLMAAVGLVESGRIEYGMTVGADTSQGEPGEHLEYSASSGGVALIVGRDGIVAELEAVYSFVSDTPDFWRREGSPYPMHGEGFTGEPAYFRHIIGATRGLMEKYGYKPSDFTYAVFHQPNGRFPVRVASMLNIPIEKVKPGIVVTHIGNTYNASALMGFAKILDMAKPGDKILLVPFGSGAGSNAYVFTVTDTILERQKTDVPTVEQMLRDKIYIDYAQYLKMRKMIKLFE",
+    "sequence_length": 350,
+    "sequence_mass": 38415,
+    "ec_numbers": [],
+    "go_terms": [
+      {
+        "id": "GO:0016747",
+        "term": "F:acyltransferase activity, transferring groups other than amino-acyl groups",
+        "evidence": "IEA:InterPro"
+      }
+    ],
+    "database_refs": {
+      "EMBL": [
+        "CP000504",
+        "ABL87987.1",
+        "-",
+        "Genomic_DNA"
+      ],
+      "RefSeq": [
+        "WP_011762563.1",
+        "NC_008701.1"
+      ],
+      "AlphaFoldDB": [
+        "A1RSQ5",
+        "-"
+      ],
+      "SMR": [
+        "A1RSQ5",
+        "-"
+      ],
+      "STRING": [
+        "384616.Pisl_0811",
+        "-"
+      ],
+      "GeneID": [
+        "4617688",
+        "-"
+      ],
+      "KEGG": [
+        "pis:Pisl_0811",
+        "-"
+      ],
+      "eggNOG": [
+        "arCOG01767",
+        "Archaea"
+      ],
+      "HOGENOM": [
+        "CLU_039592_7_0_2",
+        "-"
+      ],
+      "OrthoDB": [
+        "5812at2157",
+        "-"
+      ],
+      "Proteomes": [
+        "UP000002595",
+        "Chromosome"
+      ],
+      "CDD": [
+        "cd00827",
+        "init_cond_enzymes",
+        "1"
+      ],
+      "Gene3D": [
+        "3.40.47.10",
+        "-",
+        "1"
+      ],
+      "HAMAP": [
+        "MF_01409",
+        "UPF0219",
+        "1"
+      ],
+      "InterPro": [
+        "IPR013747",
+        "ACP_syn_III_C",
+        "IPR004656",
+        "FabH-rel",
+        "IPR016039",
+        "Thiolase-like",
+        "IPR020616",
+        "Thiolase_N"
+      ],
+      "NCBIfam": [
+        "TIGR00748",
+        "HMG_CoA_syn_Arc",
+        "1"
+      ],
+      "PANTHER": [
+        "PTHR43323",
+        "3-HYDROXY-3-METHYLGLUTARYL COENZYME A SYNTHASE",
+        "1",
+        "PTHR43323:SF2",
+        "HYDROXYMETHYLGLUTARYL-COA SYNTHASE",
+        "1"
+      ],
+      "Pfam": [
+        "PF08541",
+        "ACP_syn_III_C",
+        "1",
+        "PF00108",
+        "Thiolase_N",
+        "1"
+      ],
+      "SUPFAM": [
+        "SSF53901",
+        "Thiolase-like",
+        "2"
+      ]
+    },
+    "catalytic_activity": [],
+    "pathway": [],
+    "active_sites": [],
+    "binding_sites": [],
+    "interactions": [],
+    "cofactors": [],
+    "subunit_structure": ""
+  }
+]

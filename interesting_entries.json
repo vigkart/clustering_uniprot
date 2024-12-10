@@ -1,0 +1,1036 @@
+[
+  {
+    "id": "UBIB_ECO8A",
+    "accessions": [
+      "B7M640"
+    ],
+    "description": "RecName: Full=Probable protein kinase UbiB {ECO:0000255|HAMAP-Rule:MF_00414}; AltName: Full=Ubiquinone biosynthesis protein UbiB {ECO:0000255|HAMAP-Rule:MF_00414};",
+    "gene_names": [
+      "ubiB {ECO:0000255|HAMAP-Rule:MF_00414}"
+    ],
+    "organism": "Escherichia coli O8 (strain IAI1)",
+    "taxonomy": [
+      "585034"
+    ],
+    "references": [],
+    "comments": [
+      "-!- FUNCTION: Is probably a protein kinase regulator of UbiI activity which",
+      "    is involved in aerobic coenzyme Q (ubiquinone) biosynthesis.",
+      "    {ECO:0000255|HAMAP-Rule:MF_00414}.",
+      "-!- SUBCELLULAR LOCATION: Cell inner membrane {ECO:0000255|HAMAP-",
+      "    Rule:MF_00414}; Multi-pass membrane protein {ECO:0000255|HAMAP-",
+      "    Rule:MF_00414}.",
+      "-!- SIMILARITY: Belongs to the ABC1 family. UbiB subfamily.",
+      "    {ECO:0000255|HAMAP-Rule:MF_00414}.",
+      "---------------------------------------------------------------------------",
+      "Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms",
+      "Distributed under the Creative Commons Attribution (CC BY 4.0) License",
+      "---------------------------------------------------------------------------"
+    ],
+    "features": [],
+    "keywords": [],
+    "sequence": "MTPGEVRRLYFIIRTFLSYGLDELIPKMRITLPLRLWRYSLFWMPNRHKDKLLGERLRLALQELGPVWIKFGQMLSTRRDLFPPHIADQLALLQDKVAPFDGKLAKQQIEAAMGGLPVEAWFDDFEIKPLASASIAQVHTARLKSNGKEVVIKVIRPDILPVIKADLKLIYRLARWVPRLLPDGRRLRPTEVVREYEKTLIDELNLLRESANAIQLRRNFEDSPMLYIPEVYPDYCSEGMMVMERIYGIPVSDVAALEKNGTNMKLLAERGVQVFFTQVFRDSFFHADMHPGNIFVSYEHPENPKYIGIDCGIVGSLNKEDKRYLAENFIAFFNRDYRKVAELHVDSGWVPPDTNVEEFEFAIRTVCEPIFEKPLAEISFGHVLLNLFNTARRFNMEVQPQLVLLQKTLLYVEGVGRQLYPQLDLWKTAKPFLESWIKDQVGIPALVRAFKEKAPFWVEKMPELPELVYDSLRQGKYLQHSVDKIARELQSNHVRQGQSRYFLGIGATLVLSGTFLLVSRPEWGLMPGWLMAGGLIAWFVGWRKTR",
+    "sequence_length": 546,
+    "sequence_mass": 63203,
+    "ec_numbers": [
+      "2.7.-.-",
+      "{ECO:0000255|HAMAP-Rule:MF_00414}"
+    ],
+    "go_terms": [
+      {
+        "id": "GO:0005886",
+        "term": "C:plasma membrane",
+        "evidence": "IEA:UniProtKB-SubCell"
+      },
+      {
+        "id": "GO:0005524",
+        "term": "F:ATP binding",
+        "evidence": "IEA:UniProtKB-KW"
+      },
+      {
+        "id": "GO:0004672",
+        "term": "F:protein kinase activity",
+        "evidence": "IEA:UniProtKB-UniRule"
+      },
+      {
+        "id": "GO:0010795",
+        "term": "P:regulation of ubiquinone biosynthetic process",
+        "evidence": "IEA:UniProtKB-UniRule"
+      },
+      {
+        "id": "GO:0006744",
+        "term": "P:ubiquinone biosynthetic process",
+        "evidence": "IEA:UniProtKB-UniPathway"
+      }
+    ],
+    "database_refs": {
+      "EMBL": [
+        "CU928160",
+        "CAR00811.1",
+        "-",
+        "Genomic_DNA"
+      ],
+      "RefSeq": [
+        "WP_000187530.1",
+        "NC_011741.1"
+      ],
+      "AlphaFoldDB": [
+        "B7M640",
+        "-"
+      ],
+      "SMR": [
+        "B7M640",
+        "-"
+      ],
+      "GeneID": [
+        "75204829",
+        "-"
+      ],
+      "KEGG": [
+        "ecr:ECIAI1_4030",
+        "-"
+      ],
+      "HOGENOM": [
+        "CLU_006533_0_0_6",
+        "-"
+      ],
+      "UniPathway": [
+        "UPA00232",
+        "-"
+      ],
+      "CDD": [
+        "cd13972",
+        "UbiB",
+        "1"
+      ],
+      "HAMAP": [
+        "MF_00414",
+        "UbiB",
+        "1"
+      ],
+      "InterPro": [
+        "IPR004147",
+        "ABC1_dom",
+        "IPR011009",
+        "Kinase-like_dom_sf",
+        "IPR010232",
+        "UbiB",
+        "IPR045308",
+        "UbiB_bact",
+        "IPR050154",
+        "UbiB_kinase"
+      ],
+      "NCBIfam": [
+        "TIGR01982",
+        "UbiB",
+        "1"
+      ],
+      "PANTHER": [
+        "PTHR10566",
+        "CHAPERONE-ACTIVITY OF BC1 COMPLEX CABC1 -RELATED",
+        "1",
+        "PTHR10566:SF129",
+        "PROTEIN KINASE UBIB-RELATED",
+        "1"
+      ],
+      "Pfam": [
+        "PF03109",
+        "ABC1",
+        "1"
+      ],
+      "SUPFAM": [
+        "SSF56112",
+        "Protein kinase-like (PK-like)",
+        "1"
+      ]
+    },
+    "catalytic_activity": [],
+    "pathway": [
+      "Cofactor biosynthesis; ubiquinone biosynthesis [regulation]."
+    ],
+    "active_sites": [
+      {
+        "position": 288,
+        "amino_acid": "",
+        "description": ""
+      }
+    ],
+    "binding_sites": [
+      {
+        "type": "BINDING",
+        "position": 130,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 153,
+        "amino_acid": "",
+        "ligand": ""
+      }
+    ],
+    "interactions": [],
+    "cofactors": [],
+    "subunit_structure": ""
+  },
+  {
+    "id": "MDH_BEII9",
+    "accessions": [
+      "B2IG85"
+    ],
+    "description": "RecName: Full=Malate dehydrogenase {ECO:0000255|HAMAP-Rule:MF_00487};",
+    "gene_names": [
+      "mdh {ECO:0000255|HAMAP-Rule:MF_00487}"
+    ],
+    "organism": "Beijerinckia indica subsp. indica (strain ATCC 9039 / DSM 1715 / NCIMB 8712)",
+    "taxonomy": [
+      "395963"
+    ],
+    "references": [],
+    "comments": [
+      "-!- FUNCTION: Catalyzes the reversible oxidation of malate to oxaloacetate.",
+      "    {ECO:0000255|HAMAP-Rule:MF_00487}.",
+      "    Reaction=(S)-malate + NAD(+) = H(+) + NADH + oxaloacetate;",
+      "      Xref=Rhea:RHEA:21432, ChEBI:CHEBI:15378, ChEBI:CHEBI:15589,",
+      "      ChEBI:CHEBI:16452, ChEBI:CHEBI:57540, ChEBI:CHEBI:57945; EC=1.1.1.37;",
+      "      Evidence={ECO:0000255|HAMAP-Rule:MF_00487};",
+      "-!- SIMILARITY: Belongs to the LDH/MDH superfamily. MDH type 3 family.",
+      "    {ECO:0000255|HAMAP-Rule:MF_00487}.",
+      "---------------------------------------------------------------------------",
+      "Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms",
+      "Distributed under the Creative Commons Attribution (CC BY 4.0) License",
+      "---------------------------------------------------------------------------"
+    ],
+    "features": [],
+    "keywords": [],
+    "sequence": "MARNKIALIGAGQIGGTLAHLAGLKELGDIVLFDIAEGTPQGKALDLAESAPVDGFNAHLSGANDYSAIEGADVVIVTAGVPRKPGMSRDDLLGINLKVMESVGAGIKTYAKDAFVICITNPLDAMVWALQKASGLPPQKVVGMAGVLDSARFRYFLSDEFKVSVEDVTAFVLGGHGDDMVPLLRYSTVAGIPLPDLVKIGWTTQEKLDAIVKRTRGGGGEIVNLLKTGSAFYAPAASAIAMAESYLKDKRRVLPVAAQLNGEYGVDKLYVGVPVVIGANGVEKVVEITLDDAEKELFKKSVASVQGLVEACKTINPAFA",
+    "sequence_length": 320,
+    "sequence_mass": 33553,
+    "ec_numbers": [
+      "1.1.1.37",
+      "{ECO:0000255|HAMAP-Rule:MF_00487}"
+    ],
+    "go_terms": [
+      {
+        "id": "GO:0030060",
+        "term": "F:L-malate dehydrogenase activity",
+        "evidence": "IEA:UniProtKB-UniRule"
+      },
+      {
+        "id": "GO:0019752",
+        "term": "P:carboxylic acid metabolic process",
+        "evidence": "IEA:InterPro"
+      },
+      {
+        "id": "GO:0006099",
+        "term": "P:tricarboxylic acid cycle",
+        "evidence": "IEA:UniProtKB-UniRule"
+      }
+    ],
+    "database_refs": {
+      "EMBL": [
+        "CP001016",
+        "ACB97159.1",
+        "-",
+        "Genomic_DNA"
+      ],
+      "RefSeq": [
+        "WP_012386507.1",
+        "NC_010581.1"
+      ],
+      "AlphaFoldDB": [
+        "B2IG85",
+        "-"
+      ],
+      "SMR": [
+        "B2IG85",
+        "-"
+      ],
+      "STRING": [
+        "395963.Bind_3604",
+        "-"
+      ],
+      "KEGG": [
+        "bid:Bind_3604",
+        "-"
+      ],
+      "eggNOG": [
+        "COG0039",
+        "Bacteria"
+      ],
+      "HOGENOM": [
+        "CLU_045401_2_1_5",
+        "-"
+      ],
+      "OrthoDB": [
+        "9802969at2",
+        "-"
+      ],
+      "Proteomes": [
+        "UP000001695",
+        "Chromosome"
+      ],
+      "CDD": [
+        "cd01339",
+        "LDH-like_MDH",
+        "1"
+      ],
+      "Gene3D": [
+        "3.90.110.10",
+        "Lactate dehydrogenase/glycoside hydrolase, family 4, C-terminal",
+        "1",
+        "3.40.50.720",
+        "NAD(P)-binding Rossmann-like Domain",
+        "1"
+      ],
+      "HAMAP": [
+        "MF_00487",
+        "Malate_dehydrog_3",
+        "1"
+      ],
+      "InterPro": [
+        "IPR001557",
+        "L-lactate/malate_DH",
+        "IPR022383",
+        "Lactate/malate_DH_C",
+        "IPR001236",
+        "Lactate/malate_DH_N",
+        "IPR015955",
+        "Lactate_DH/Glyco_Ohase_4_C",
+        "IPR011275",
+        "Malate_DH_type3",
+        "IPR036291",
+        "NAD(P)-bd_dom_sf"
+      ],
+      "NCBIfam": [
+        "TIGR01763",
+        "MalateDH_bact",
+        "1"
+      ],
+      "PANTHER": [
+        "PTHR43128",
+        "L-2-HYDROXYCARBOXYLATE DEHYDROGENASE (NAD(P)(+))",
+        "1",
+        "PTHR43128:SF34",
+        "L-LACTATE DEHYDROGENASE",
+        "1"
+      ],
+      "Pfam": [
+        "PF02866",
+        "Ldh_1_C",
+        "1",
+        "PF00056",
+        "Ldh_1_N",
+        "1"
+      ],
+      "PIRSF": [
+        "PIRSF000102",
+        "Lac_mal_DH",
+        "1"
+      ],
+      "PRINTS": [
+        "PR00086",
+        "LLDHDRGNASE"
+      ],
+      "SUPFAM": [
+        "SSF56327",
+        "LDH C-terminal domain-like",
+        "1",
+        "SSF51735",
+        "NAD(P)-binding Rossmann-fold domains",
+        "1"
+      ]
+    },
+    "catalytic_activity": [
+      ""
+    ],
+    "pathway": [],
+    "active_sites": [
+      {
+        "position": 176,
+        "amino_acid": "",
+        "description": ""
+      }
+    ],
+    "binding_sites": [
+      {
+        "type": "BINDING",
+        "position": 10,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 34,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 83,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 89,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 96,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 119,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 121,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 152,
+        "amino_acid": "",
+        "ligand": ""
+      }
+    ],
+    "interactions": [],
+    "cofactors": [],
+    "subunit_structure": ""
+  },
+  {
+    "id": "ISPT_RALN1",
+    "accessions": [
+      "Q8XZI7"
+    ],
+    "description": "RecName: Full=Isoprenyl transferase {ECO:0000255|HAMAP-Rule:MF_01139};",
+    "gene_names": [
+      "uppS {ECO:0000255|HAMAP-Rule:MF_01139}"
+    ],
+    "organism": "Ralstonia nicotianae (strain ATCC BAA-1114 / GMI1000) (Ralstonia solanacearum)",
+    "taxonomy": [
+      "267608"
+    ],
+    "references": [],
+    "comments": [
+      "-!- FUNCTION: Catalyzes the condensation of isopentenyl diphosphate (IPP)",
+      "    with allylic pyrophosphates generating different type of terpenoids.",
+      "    {ECO:0000255|HAMAP-Rule:MF_01139}.",
+      "    Name=Mg(2+); Xref=ChEBI:CHEBI:18420;",
+      "      Evidence={ECO:0000255|HAMAP-Rule:MF_01139};",
+      "    Note=Binds 2 magnesium ions per subunit. {ECO:0000255|HAMAP-",
+      "    Rule:MF_01139};",
+      "-!- SIMILARITY: Belongs to the UPP synthase family. {ECO:0000255|HAMAP-",
+      "    Rule:MF_01139}.",
+      "---------------------------------------------------------------------------",
+      "Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms",
+      "Distributed under the Creative Commons Attribution (CC BY 4.0) License",
+      "---------------------------------------------------------------------------"
+    ],
+    "features": [],
+    "keywords": [],
+    "sequence": "MHISSTLAVPDTADTPHHVAIIMDGNGRWATERHLPRMAGHSRGLDAVRAAVQAADHRGVRYLTLFAFSSENWRRPAEEISFLMKLFMTALRREVSKLNDSGIRLRVVGDLSAFSPRIQLMIREAEAKTATNPGLTVTIAANYGGRWDILQAMRALVADQPDIAPEAITEEALSPYMALAYASEPDLFIRTGGEQRISNFMLWQLAYSELYFTERYWPDFDAAEMDRAFAWYRNRERRFGRTSAQLEPGTAPALSAGA",
+    "sequence_length": 258,
+    "sequence_mass": 28936,
+    "ec_numbers": [
+      "2.5.1.-",
+      "{ECO:0000255|HAMAP-Rule:MF_01139}"
+    ],
+    "go_terms": [
+      {
+        "id": "GO:0005829",
+        "term": "C:cytosol",
+        "evidence": "IEA:TreeGrafter"
+      },
+      {
+        "id": "GO:0008834",
+        "term": "F:di-trans,poly-cis-undecaprenyl-diphosphate synthase activity",
+        "evidence": "IEA:TreeGrafter"
+      },
+      {
+        "id": "GO:0000287",
+        "term": "F:magnesium ion binding",
+        "evidence": "IEA:UniProtKB-UniRule"
+      },
+      {
+        "id": "GO:0002094",
+        "term": "F:polyprenyltransferase activity",
+        "evidence": "IEA:TreeGrafter"
+      },
+      {
+        "id": "GO:0016094",
+        "term": "P:polyprenol biosynthetic process",
+        "evidence": "IEA:TreeGrafter"
+      }
+    ],
+    "database_refs": {
+      "EMBL": [
+        "AL646052",
+        "CAD15110.1",
+        "-",
+        "Genomic_DNA"
+      ],
+      "RefSeq": [
+        "WP_011001357.1",
+        "NC_003295.1"
+      ],
+      "AlphaFoldDB": [
+        "Q8XZI7",
+        "-"
+      ],
+      "SMR": [
+        "Q8XZI7",
+        "-"
+      ],
+      "STRING": [
+        "267608.RSc1408",
+        "-"
+      ],
+      "EnsemblBacteria": [
+        "CAD15110",
+        "CAD15110",
+        "RSc1408"
+      ],
+      "GeneID": [
+        "60500931",
+        "-"
+      ],
+      "KEGG": [
+        "rso:RSc1408",
+        "-"
+      ],
+      "PATRIC": [
+        "fig|267608.8.peg.1439",
+        "-"
+      ],
+      "eggNOG": [
+        "COG0020",
+        "Bacteria"
+      ],
+      "HOGENOM": [
+        "CLU_038505_1_1_4",
+        "-"
+      ],
+      "Proteomes": [
+        "UP000001436",
+        "Chromosome"
+      ],
+      "CDD": [
+        "cd00475",
+        "Cis_IPPS",
+        "1"
+      ],
+      "Gene3D": [
+        "3.40.1180.10",
+        "Decaprenyl diphosphate synthase-like",
+        "1"
+      ],
+      "HAMAP": [
+        "MF_01139",
+        "ISPT",
+        "1"
+      ],
+      "InterPro": [
+        "IPR001441",
+        "UPP_synth-like",
+        "IPR018520",
+        "UPP_synth-like_CS",
+        "IPR036424",
+        "UPP_synth-like_sf"
+      ],
+      "NCBIfam": [
+        "TIGR00055",
+        "uppS",
+        "1"
+      ],
+      "PANTHER": [
+        "PTHR10291",
+        "DEHYDRODOLICHYL DIPHOSPHATE SYNTHASE FAMILY MEMBER",
+        "1",
+        "PTHR10291:SF48",
+        "DITRANS,POLYCIS-UNDECAPRENYL-DIPHOSPHATE SYNTHASE ((2E,6E)-FARNESYL-DIPHOSPHATE SPECIFIC)",
+        "1"
+      ],
+      "Pfam": [
+        "PF01255",
+        "Prenyltransf",
+        "1"
+      ],
+      "SUPFAM": [
+        "SSF64005",
+        "Undecaprenyl diphosphate synthase",
+        "1"
+      ],
+      "PROSITE": [
+        "PS01066",
+        "UPP_SYNTHASE",
+        "1"
+      ]
+    },
+    "catalytic_activity": [],
+    "pathway": [],
+    "active_sites": [
+      {
+        "position": 24,
+        "amino_acid": "",
+        "description": ""
+      },
+      {
+        "position": 72,
+        "amino_acid": "",
+        "description": ""
+      }
+    ],
+    "binding_sites": [
+      {
+        "type": "BINDING",
+        "position": 24,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 25,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 29,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 37,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 41,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 69,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 73,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 75,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 190,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 196,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 209,
+        "amino_acid": "",
+        "ligand": ""
+      }
+    ],
+    "interactions": [],
+    "cofactors": [],
+    "subunit_structure": "Homodimer. {ECO:0000255|HAMAP-Rule:MF_01139}."
+  },
+  {
+    "id": "MIAA_LACLS",
+    "accessions": [
+      "Q031A8"
+    ],
+    "description": "RecName: Full=tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185}; AltName: Full=Dimethylallyl diphosphate:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};          Short=DMAPP:tRNA dimethylallyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};          Short=DMATase {ECO:0000255|HAMAP-Rule:MF_00185}; AltName: Full=Isopentenyl-diphosphate:tRNA isopentenyltransferase {ECO:0000255|HAMAP-Rule:MF_00185};          Short=IPP transferase {ECO:0000255|HAMAP-Rule:MF_00185};          Short=IPPT {ECO:0000255|HAMAP-Rule:MF_00185};          Short=IPTase {ECO:0000255|HAMAP-Rule:MF_00185};",
+    "gene_names": [
+      "miaA {ECO:0000255|HAMAP-Rule:MF_00185}"
+    ],
+    "organism": "Lactococcus lactis subsp. cremoris (strain SK11)",
+    "taxonomy": [
+      "272622"
+    ],
+    "references": [],
+    "comments": [
+      "-!- FUNCTION: Catalyzes the transfer of a dimethylallyl group onto the",
+      "    adenine at position 37 in tRNAs that read codons beginning with",
+      "    uridine, leading to the formation of N6-(dimethylallyl)adenosine",
+      "    (i(6)A). {ECO:0000255|HAMAP-Rule:MF_00185}.",
+      "    Reaction=adenosine(37) in tRNA + dimethylallyl diphosphate =",
+      "      diphosphate + N(6)-dimethylallyladenosine(37) in tRNA;",
+      "      Xref=Rhea:RHEA:26482, Rhea:RHEA-COMP:10162, Rhea:RHEA-COMP:10375,",
+      "      ChEBI:CHEBI:33019, ChEBI:CHEBI:57623, ChEBI:CHEBI:74411,",
+      "      ChEBI:CHEBI:74415; EC=2.5.1.75; Evidence={ECO:0000255|HAMAP-",
+      "      Rule:MF_00185};",
+      "    Name=Mg(2+); Xref=ChEBI:CHEBI:18420;",
+      "      Evidence={ECO:0000255|HAMAP-Rule:MF_00185};",
+      "-!- SIMILARITY: Belongs to the IPP transferase family. {ECO:0000255|HAMAP-",
+      "    Rule:MF_00185}.",
+      "---------------------------------------------------------------------------",
+      "Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms",
+      "Distributed under the Creative Commons Attribution (CC BY 4.0) License",
+      "---------------------------------------------------------------------------"
+    ],
+    "features": [],
+    "keywords": [],
+    "sequence": "MKNNKVLVVVGPTAVGKTALGIDLAIKMNGEIISGDSQQVYQGLDIGTAKVTKAEQALAVHHLIDVRKWTENFSVHDFVMEANRLIKEIIERGNVPIIVGGTGLYIQSLIEGYHLGGQKNHQAMMELRETLSALTDEELFEKVLKLNPNFPELNRRRAIRFLELQTFGSTDENSGSDYNFLLIGLNAERKVLYERINQRVEQMMSEGLLAEARTLFEKAPDAQAAKGIGYKEFFPYFSGEISLEDAVELVKRNSRRYAKRQLTWFRNRMEVEFEDVFSETYPDSVFEKVTQFLN",
+    "sequence_length": 294,
+    "sequence_mass": 33474,
+    "ec_numbers": [
+      "2.5.1.75",
+      "{ECO:0000255|HAMAP-Rule:MF_00185}"
+    ],
+    "go_terms": [
+      {
+        "id": "GO:0005524",
+        "term": "F:ATP binding",
+        "evidence": "IEA:UniProtKB-UniRule"
+      },
+      {
+        "id": "GO:0052381",
+        "term": "F:tRNA dimethylallyltransferase activity",
+        "evidence": "IEA:UniProtKB-UniRule"
+      },
+      {
+        "id": "GO:0008033",
+        "term": "P:tRNA processing",
+        "evidence": "IEA:UniProtKB-UniRule"
+      }
+    ],
+    "database_refs": {
+      "EMBL": [
+        "CP000425",
+        "ABJ72214.1",
+        "-",
+        "Genomic_DNA"
+      ],
+      "RefSeq": [
+        "WP_011675766.1",
+        "NC_008527.1"
+      ],
+      "AlphaFoldDB": [
+        "Q031A8",
+        "-"
+      ],
+      "SMR": [
+        "Q031A8",
+        "-"
+      ],
+      "KEGG": [
+        "llc:LACR_0647",
+        "-"
+      ],
+      "HOGENOM": [
+        "CLU_032616_0_1_9",
+        "-"
+      ],
+      "Proteomes": [
+        "UP000000240",
+        "Chromosome"
+      ],
+      "Gene3D": [
+        "3.40.50.300",
+        "P-loop containing nucleotide triphosphate hydrolases",
+        "1"
+      ],
+      "HAMAP": [
+        "MF_00185",
+        "IPP_trans",
+        "1"
+      ],
+      "InterPro": [
+        "IPR039657",
+        "Dimethylallyltransferase",
+        "IPR018022",
+        "IPT",
+        "IPR027417",
+        "P-loop_NTPase"
+      ],
+      "NCBIfam": [
+        "TIGR00174",
+        "miaA",
+        "1"
+      ],
+      "PANTHER": [
+        "PTHR11088",
+        "TRNA DIMETHYLALLYLTRANSFERASE",
+        "1",
+        "PTHR11088:SF95",
+        "TRNA DIMETHYLALLYLTRANSFERASE",
+        "1"
+      ],
+      "Pfam": [
+        "PF01715",
+        "IPPT",
+        "1"
+      ],
+      "SUPFAM": [
+        "SSF52540",
+        "P-loop containing nucleoside triphosphate hydrolases",
+        "1"
+      ]
+    },
+    "catalytic_activity": [
+      ""
+    ],
+    "pathway": [],
+    "active_sites": [],
+    "binding_sites": [
+      {
+        "type": "BINDING",
+        "position": 11,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 13,
+        "amino_acid": "",
+        "ligand": ""
+      }
+    ],
+    "interactions": [],
+    "cofactors": [],
+    "subunit_structure": "Monomer. {ECO:0000255|HAMAP-Rule:MF_00185}."
+  },
+  {
+    "id": "PDXJ_XANOR",
+    "accessions": [
+      "Q5H704"
+    ],
+    "description": "RecName: Full=Pyridoxine 5'-phosphate synthase {ECO:0000255|HAMAP-Rule:MF_00279};          Short=PNP synthase {ECO:0000255|HAMAP-Rule:MF_00279};",
+    "gene_names": [
+      "pdxJ {ECO:0000255|HAMAP-Rule:MF_00279}"
+    ],
+    "organism": "Xanthomonas oryzae pv. oryzae (strain KACC10331 / KXO85)",
+    "taxonomy": [
+      "291331"
+    ],
+    "references": [],
+    "comments": [
+      "-!- FUNCTION: Catalyzes the complicated ring closure reaction between the",
+      "    two acyclic compounds 1-deoxy-D-xylulose-5-phosphate (DXP) and 3-amino-",
+      "    2-oxopropyl phosphate (1-amino-acetone-3-phosphate or AAP) to form",
+      "    pyridoxine 5'-phosphate (PNP) and inorganic phosphate.",
+      "    {ECO:0000255|HAMAP-Rule:MF_00279}.",
+      "    Reaction=1-deoxy-D-xylulose 5-phosphate + 3-amino-2-oxopropyl phosphate",
+      "      = H(+) + 2 H2O + phosphate + pyridoxine 5'-phosphate;",
+      "      Xref=Rhea:RHEA:15265, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378,",
+      "      ChEBI:CHEBI:43474, ChEBI:CHEBI:57279, ChEBI:CHEBI:57792,",
+      "      ChEBI:CHEBI:58589; EC=2.6.99.2; Evidence={ECO:0000255|HAMAP-",
+      "      Rule:MF_00279};",
+      "    pyridoxine 5'-phosphate from D-erythrose 4-phosphate: step 5/5.",
+      "    {ECO:0000255|HAMAP-Rule:MF_00279}.",
+      "    Rule:MF_00279}.",
+      "-!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000255|HAMAP-Rule:MF_00279}.",
+      "-!- SIMILARITY: Belongs to the PNP synthase family. {ECO:0000255|HAMAP-",
+      "    Rule:MF_00279}.",
+      "---------------------------------------------------------------------------",
+      "Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms",
+      "Distributed under the Creative Commons Attribution (CC BY 4.0) License",
+      "---------------------------------------------------------------------------"
+    ],
+    "features": [],
+    "keywords": [],
+    "sequence": "MTTQLSVNVNKIAVLRNSRGGTDPDVLQAARTCIAAGAHGITVHPRPDQRHIRAGDVLALSALTREHAVEFNIEGNPFAPPRAGYPGLLELCRATRPEQITLVPDGDGQLTSDHGFDFAQDTTQLAELIAAFKAVGSRVSLFVDAGNPDIAGAAALGADRVELYTGPYAHAHASGQTDTALALFADAGRRASAAGLGINAGHDLSQANLGDFLAAVPGVLEVSIGHALIGEALYQGLEATVRAYVDILRGSQVGA",
+    "sequence_length": 255,
+    "sequence_mass": 26400,
+    "ec_numbers": [
+      "2.6.99.2",
+      "{ECO:0000255|HAMAP-Rule:MF_00279}"
+    ],
+    "go_terms": [
+      {
+        "id": "GO:0005737",
+        "term": "C:cytoplasm",
+        "evidence": "IEA:UniProtKB-SubCell"
+      },
+      {
+        "id": "GO:0033856",
+        "term": "F:pyridoxine 5'-phosphate synthase activity",
+        "evidence": "IEA:UniProtKB-EC"
+      },
+      {
+        "id": "GO:0008615",
+        "term": "P:pyridoxine biosynthetic process",
+        "evidence": "IEA:UniProtKB-UniRule"
+      }
+    ],
+    "database_refs": {
+      "EMBL": [
+        "AE013598",
+        "AAW73266.1",
+        "-",
+        "Genomic_DNA"
+      ],
+      "AlphaFoldDB": [
+        "Q5H704",
+        "-"
+      ],
+      "SMR": [
+        "Q5H704",
+        "-"
+      ],
+      "STRING": [
+        "291331.XOO0012",
+        "-"
+      ],
+      "KEGG": [
+        "xoo:XOO0012",
+        "-"
+      ],
+      "HOGENOM": [
+        "CLU_074563_1_0_6",
+        "-"
+      ],
+      "UniPathway": [
+        "UPA00244",
+        "UER00313"
+      ],
+      "Proteomes": [
+        "UP000006735",
+        "Chromosome"
+      ],
+      "CDD": [
+        "cd00003",
+        "PNPsynthase",
+        "1"
+      ],
+      "Gene3D": [
+        "3.20.20.70",
+        "Aldolase class I",
+        "1"
+      ],
+      "HAMAP": [
+        "MF_00279",
+        "PdxJ",
+        "1"
+      ],
+      "InterPro": [
+        "IPR013785",
+        "Aldolase_TIM",
+        "IPR004569",
+        "PyrdxlP_synth_PdxJ",
+        "IPR036130",
+        "Pyridoxine-5'_phos_synth"
+      ],
+      "NCBIfam": [
+        "TIGR00559",
+        "pdxJ",
+        "1"
+      ],
+      "PANTHER": [
+        "PTHR30456",
+        "PYRIDOXINE 5'-PHOSPHATE SYNTHASE",
+        "1",
+        "PTHR30456:SF0",
+        "PYRIDOXINE 5'-PHOSPHATE SYNTHASE",
+        "1"
+      ],
+      "Pfam": [
+        "PF03740",
+        "PdxJ",
+        "1"
+      ],
+      "SUPFAM": [
+        "SSF63892",
+        "Pyridoxine 5'-phosphate synthase",
+        "1"
+      ]
+    },
+    "catalytic_activity": [
+      ""
+    ],
+    "pathway": [
+      "Cofactor biosynthesis; pyridoxine 5'-phosphate biosynthesis;"
+    ],
+    "active_sites": [
+      {
+        "position": 44,
+        "amino_acid": "",
+        "description": ""
+      },
+      {
+        "position": 74,
+        "amino_acid": "",
+        "description": ""
+      },
+      {
+        "position": 202,
+        "amino_acid": "",
+        "description": ""
+      }
+    ],
+    "binding_sites": [
+      {
+        "type": "BINDING",
+        "position": 8,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 19,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 46,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 51,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 111,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 203,
+        "amino_acid": "",
+        "ligand": ""
+      },
+      {
+        "type": "BINDING",
+        "position": 225,
+        "amino_acid": "",
+        "ligand": ""
+      }
+    ],
+    "interactions": [],
+    "cofactors": [],
+    "subunit_structure": "Homooctamer; tetramer of dimers. {ECO:0000255|HAMAP-"
+  }
+]
